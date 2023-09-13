@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Gillroy-Bold';
+    src: url('./font/Gilroy-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Gillroy-Medium';
+    src: url('./font/Gilroy-Medium.woff2');
+}
+
+@font-face {
+    font-family: 'Gillroy-Semibold';
+    src: url('./font/Gilroy-Semibold.woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 89px;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #FFFFFF;
+    font-family: 'Gillroy-Bold';
+    color: #fff;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.logo_container {
+    margin: 30px;
+    width: 137px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.content_leftside {
+    max-width: 522px;
+    height: 374px;
+    flex-shrink: 0;
+}
+
+.navigation_container {
+    margin: 15px;
+    padding: 25px 0;
+}
+
+.navigation_link {
+    color: #000;
+    font-family: Gilroy-Semibold;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 36px;
+}
+
+main {
+    margin-bottom: 178px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.content_container {
+    display: flex;
+    justify-content: center;
+}
+
+.main_head {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.main_text {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.main_img {
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
+}
+
+.content_button_list {
+    width: 150px;
+    height: 0px;
+    padding: 16px, 36px;
+}
+
+.btn1 {
+    margin: 0px, 72px;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    cursor: pointer;
+    border: none;
+}
+
+.btn2 {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    border: none;
+}
+
+footer {
+    /*width: 1920px;*/
+    height: 243px;
+    flex-shrink: 0;
+}
+
+.logos_container {
+    display: flex;
+    justify-content: space-evenly;
+}`
+
+.home_logo {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
